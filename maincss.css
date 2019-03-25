@@ -1,0 +1,35 @@
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.centered2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 40px;
+  margin-left: -45px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho&subset=japanese,latin-ext');
+
+body {
+	font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.fixed-box {
+position: absolute; 
+bottom: 5px;
+left: 5px;
+}
+
+.black-link {
+	color: black;
+}
+
+a:link {
+	text-decoration: none;
+}
